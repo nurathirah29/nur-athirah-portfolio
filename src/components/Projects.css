@@ -1,0 +1,80 @@
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-item:hover .project-title {
+  color: var(--accent);
+  transition: color 0.2s;
+}
+
+.project-item:hover .project-arrow {
+  color: var(--accent);
+  transform: translateX(4px);
+  transition: color 0.2s, transform 0.2s;
+}
+
+.project-num {
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-family: monospace;
+  min-width: 1.5rem;
+  padding-top: 0.2rem;
+  flex-shrink: 0;
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  transition: color 0.2s;
+}
+
+.project-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.project-tag {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  background: var(--surface2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.project-arrow {
+  font-size: 1rem;
+  color: var(--muted);
+  padding-top: 0.15rem;
+  flex-shrink: 0;
+  transition: color 0.2s, transform 0.2s;
+}
