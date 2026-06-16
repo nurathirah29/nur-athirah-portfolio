@@ -28,7 +28,7 @@ export default function Hero() {
             View Projects
           </button>
 
-          <a href="/resume/New_Resume6.pdf" target="_blank" rel="noreferrer" className="btn-ghost">
+          <a href="/resume/New.pdf" target="_blank" rel="noreferrer" className="btn-ghost">
             Resume ↗
           </a>
         </div>
