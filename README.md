@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React and Vite, showcasing my projects and skills as a backend developer.
 
-🌐 **Live site:** [your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+🌐 **Live site:** [nur-athirah-portfolio.vercel.app](https://nur-athirah-portfolio.vercel.app)
 
 ---
 
