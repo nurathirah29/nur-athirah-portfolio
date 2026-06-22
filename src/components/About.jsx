@@ -3,14 +3,14 @@ import './About.css';
 const facts = [
   { label: 'Based in', value: 'Malaysia', accent: false },
   { label: 'Current role', value: 'Junior Programmer', accent: false },
-  { label: 'Experience', value: '1 yr 8 months', accent: false },
+  { label: 'Experience', value: '1+ year', accent: false },
   { label: 'Stack', value: 'Flask · MySQL · Bootstrap', accent: false },
   { label: 'Currently', value: 'Open to new roles', accent: true },
 ];
 
 const stats = [
   { num: '4', label: 'Systems built' },
-  { num: '1y 8m', label: 'Work experience' },
+  { num: '1+ year', label: 'Work experience' },
 ];
 
 const education = [
@@ -33,7 +33,7 @@ export default function About() {
           <h2 className="section-title">Building real systems for real users.</h2>
           <div className="about-text">
             <p>
-              I'm a junior programmer with 1 year and 8 months of working experience
+              I'm a junior programmer with 1+ year of working experience
               focused on building internal web systems using
               Python Flask, MySQL, and Bootstrap — deployed on self-hosted Synology NAS infrastructure.
             </p>

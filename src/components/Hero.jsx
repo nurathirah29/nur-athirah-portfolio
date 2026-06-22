@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="hero-bg2" aria-hidden="true" />
 
       <div className="hero-content">
-        <div className="hero-tag fade-up">Open to Software Developer opportunities</div>
+        <div className="hero-tag fade-up">Open to Backend Developer opportunities</div>
 
         <h1 className="hero-heading fade-up delay-1">
           Hi, I'm<br />

@@ -78,3 +78,21 @@
   flex-shrink: 0;
   transition: color 0.2s, transform 0.2s;
 }
+
+.project-screenshots-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 12px;
+  font-size: 0.7rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--muted);
+  transition: background 0.2s, color 0.2s;
+}
+
+.project-screenshots-btn:hover {
+  background: var(--surface2);
+  color: var(--text);
+}
