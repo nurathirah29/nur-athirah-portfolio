@@ -51,7 +51,7 @@ const ImageSliderModal = ({ project, onClose }) => {
           }}
         >
           <div>
-            <p style={{ margin: 0, fontWeight: 500, fontSize: "15px" }}>
+            <p style={{ margin: 0, fontWeight: 500, fontSize: "15px", color: "#000"}}>
               {project.title}
             </p>
             <p style={{ margin: "2px 0 0", fontSize: "12px", color: "#888" }}>
@@ -66,7 +66,7 @@ const ImageSliderModal = ({ project, onClose }) => {
               border: "none",
               fontSize: "22px",
               cursor: "pointer",
-              color: "#000000",
+              color: "#888",
               lineHeight: 1,
               padding: "4px 8px",
               borderRadius: "6px",
