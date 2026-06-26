@@ -54,7 +54,7 @@ const ImageSliderModal = ({ project, onClose }) => {
             <p style={{ margin: 0, fontWeight: 500, fontSize: "15px" }}>
               {project.title}
             </p>
-            <p style={{ margin: "2px 0 0", fontSize: "12px", color: "#000000" }}>
+            <p style={{ margin: "2px 0 0", fontSize: "12px", color: "#888" }}>
               {currentSlide?.type === "video" ? "Video demo" : "Screenshot"}{" "}
               {current + 1} of {total}
             </p>
@@ -66,7 +66,7 @@ const ImageSliderModal = ({ project, onClose }) => {
               border: "none",
               fontSize: "22px",
               cursor: "pointer",
-              color: "#888",
+              color: "#000000",
               lineHeight: 1,
               padding: "4px 8px",
               borderRadius: "6px",
