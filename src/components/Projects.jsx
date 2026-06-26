@@ -10,9 +10,8 @@ const projects = [
     tags: ['Python Flask', 'MySQL', 'Bootstrap', 'PDF & CSV Export'],
     link: 'https://github.com/nurathirah29/Spare-Part-Request-System',
     images: [
-      { type: "image", src: "/screenshots/spare-dashboard.png" },
-      { type: "image", src: "/screenshots/spare-request.png" },
-      { type: "image", src: "/screenshots/spare-status.png" },
+      { type: "video", src: "/videos/sprs-requester.mp4" },
+      { type: "video", src: "/videos/sprs-admin.mp4" },
     ],
   },
   {
@@ -22,7 +21,7 @@ const projects = [
     tags: ['Python Flask', 'MySQL', 'QR Code', 'Bootstrap'],
     link: 'https://github.com/nurathirah29/Employee-Movement-Tracking-System',
     images: [
-      { type: "video", src: "/videos/EMTS.mp4" },
+      { type: "video", src: "/videos/emts.mp4" },
     ],
   },
   {
@@ -32,9 +31,9 @@ const projects = [
     tags: ['Python Flask', 'MySQL', 'Bootstrap', '5-role Workflow', 'CSV Export'],
     link: 'https://github.com/nurathirah29/Leave-Application-System',
     images: [
-      { type: "image", src: "/screenshots/leave-dashboard.png" },
-      { type: "image", src: "/screenshots/leave-approval.png" },
-      { type: "image", src: "/screenshots/leave-form.png" },
+      { type: "video", src: "/videos/lams-employee.mp4" },
+      { type: "video", src: "/videos/lams-verifier.mp4" },
+      { type: "video", src: "/videos/lams-hr.mp4" },
     ],
   },
   {
@@ -44,8 +43,7 @@ const projects = [
     tags: ['Python Flask', 'MySQL', 'Bootstrap', 'Email Login'],
     link: 'https://github.com/nurathirah29/Sample-Requisition-System',
     images: [
-      { type: "image", src: "/screenshots/sample-form.png" },
-      { type: "image", src: "/screenshots/sample-listing.png" },
+      { type: "video", src: "/videos/srs.mp4" },
     ],
   },
 ];
