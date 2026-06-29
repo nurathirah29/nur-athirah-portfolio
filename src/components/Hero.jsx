@@ -28,7 +28,7 @@ export default function Hero() {
             View Projects
           </button>
 
-          <a href="/resume/Nur Athirah-Resume.pdf" target="_blank" rel="noreferrer" className="btn-ghost">
+          <a href="/resume/Nur Athirah Mohd Subri-Resume.pdf" target="_blank" rel="noreferrer" className="btn-ghost">
             Resume ↗
           </a>
         </div>
